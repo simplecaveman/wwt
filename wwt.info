@@ -1,0 +1,57 @@
+name = wwt
+description = WorkoutWebTools base profile
+version = VERSION
+; version = "7.x-1.0"
+
+core = 7.x
+; Enable core modules
+dependencies[] = block
+# dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = file
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+; Enable contrib modules
+dependencies[] = admin_menu
+dependencies[] = admin
+dependencies[] = context
+dependencies[] = context_ui
+dependencies[] = ctools
+# dependencies[] = entitycache
+# dependencies[] = globalredirect
+# dependencies[] = googleanalytics
+# dependencies[] = imce
+# dependencies[] = imce_wysiwyg
+dependencies[] = link
+dependencies[] = login_destination
+# dependencies[] = nodeblock
+# dependencies[] = module_filter
+# dependencies[] = pathauto
+dependencies[] = token
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = webform
+dependencies[] = wysiwyg
+# dependencies[] = xmlsitemap
+# dependencies[] = xmlsitemap_node
+# dependencies[] = xmlsitemap_engines
+dependencies[] = calendar_table
+dependencies[] = event_content_type
+dependencies[] = workbench
+
+; Development
+dependencies[] = devel
+
+files[] = biz.profile
